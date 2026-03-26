@@ -1,0 +1,25 @@
+version: 1
+
+project:
+  name: depscount
+
+weights:
+  security: 0.45
+  abandonment: 0.25
+  license: 0.20
+  supply_chain: 0.10
+
+thresholds:
+  fail_on: high
+
+licenses:
+  allowed:
+    - MIT
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - ISC
+    - CC0-1.0
+  blocked:
+    - AGPL-3.0
+  treat_unknown_as: warn

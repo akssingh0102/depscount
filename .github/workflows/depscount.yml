@@ -1,0 +1,19 @@
+name: Dependency risk scan
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+jobs:
+  depscount:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.22.x"
+      - name: Build depscount
+        run: go build -o depscount ./cmd/depscount/
+      - name: Scan
+        run: ./depscount ci .
+        working-directory: ${{ github.workspace }}

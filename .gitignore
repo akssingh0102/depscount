@@ -1,0 +1,37 @@
+# Local scratch (e.g. notes, copies of docs)
+/temp/
+
+# Build output
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+*.out
+
+# Go coverage
+*.coverprofile
+coverage.html
+coverage.txt
+
+# Dependency directories (uncomment if you use vendoring without committing)
+# vendor/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# Editors
+.idea/
+*.swp
+*.swo
+*~
