@@ -234,7 +234,7 @@ make test    # go test ./...
 
 ## Contributing
 
-Issues and pull requests are welcome. Please keep changes focused and aligned with the architecture document when touching scanner behavior or public CLI contracts.
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for setup, PR expectations, and the project layout. Issues and pull requests are welcome; keep changes focused and aligned with the architecture document when touching scanner behavior or public CLI contracts.
 
 ---
 
