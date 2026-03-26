@@ -236,6 +236,8 @@ make test    # go test ./...
 
 See **[CONTRIBUTING.md](CONTRIBUTING.md)** for setup, PR expectations, and the project layout. Issues and pull requests are welcome; keep changes focused and aligned with the architecture document when touching scanner behavior or public CLI contracts.
 
+Release history: **[CHANGELOG.md](CHANGELOG.md)**.
+
 ---
 
 ## License
